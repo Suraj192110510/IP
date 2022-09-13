@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Mileage</title>
+<script type="text/javascript">
+<!--
+var g1;
+var m1;
+var a1;
+var a2;
+var a3;
+var g2;
+var m2;
+var g3;
+var m3;
+var avgall;
+g1 = window.prompt("Enter Number of Gallons used for Tank1:");
+m1 = window.prompt("Enter number of miles drived for Tank1:");
+g2 = window.prompt("Enter Number of Gallons used for Tank2:");
+m2 = window.prompt("Enter number of miles drived for Tank2:");
+g3 = window.prompt("Enter Number of Gallons used for Tank3:");
+m3 = window.prompt("Enter number of miles drived for Tank3:");
+a1 = parseInt(m1) / parseInt(g1);
+a2 = parseInt(m2) / parseInt(g2);
+a3 = parseInt(m3) / parseInt(g3);
+avgall = ((parseInt(m1) + parseInt(m2) + parseInt(m3)) / (parseInt(g1) + parseInt(g2) + parseInt(g3)));
+document.writeln( "<h1> Miles per Gallon for Tank1 is: " + a1 + "</h1>" );
+document.writeln( "<h1> Miles per Gallon for Tank2 is: " + a2 + "</h1>" );
+document.writeln( "<h1> Miles per Gallon for Tank3 is: " + a3 + "</h1>" );
+document.writeln( "<h1> Combined Miles per Gallon for all Tank is: " + avgall + "</h1>" );
+// -->
+</script>
+</head>
+<body>
+<h1><center>Mileage Calculation</center>
+<hr />
+<p> Click Refresh(F5) or reload to run this script again</p>
+</body>
+</html>
