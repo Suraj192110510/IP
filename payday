@@ -1,0 +1,111 @@
+[9:23 am, 13/09/2022] Prudhvi: <!DOCTYPE html>
+<html>
+<head>
+<style>
+body  {
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg");
+  background-size:100%;
+  background-repeat:no-repeat;
+  color:red;
+}
+</style>
+</head>
+<body>
+<h1>The background-attachment property</h1>
+
+
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The backgr…
+[9:50 am, 13/09/2022] Prudhvi: https://daily.jstor.org/wp-content/uploads/2020/06/why_you_should_learn_the_names_of_trees_1050x700.jpg
+[11:18 am, 13/09/2022] Prudhvi: <html>
+<head> <style>
+.flag {
+  width: 300px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.italy-flag {
+  width: 100%;
+  padding-bottom: 66.667%;
+  background-color: #F1F2F1;
+  position: relative;
+  margin: 0;
+}
+
+.italy-flag::before {
+  content: ' ';
+  position: absolute;
+  background-color: #009246;
+  width: 33.33%;
+  height: 100%;
+}
+
+.italy-flag::after {
+  content: ' ';
+  position: absolute;
+  background-color:  	#CE2B37;
+  width: 33.33%;
+  height: 100%;
+  right: 0;
+}
+</style>
+</head>
+
+<body>
+<div class="flag">
+  <section role="region" aria-hidden="true" class="italy-flag">
+  </section>
+</div>
+
+
+</body>
+</html>
+[11:54 am, 13/09/2022] Prudhvi: <html>
+<head>
+<title>Pay Day </title>
+<script type="text/javascript">
+<!--
+var e1;
+var r1;
+var e2;
+var r2;
+var e3;
+var r3;
+e1 = window.prompt("Enter Number of Hours Employee1 worked last week:");
+r1 = window.prompt("Enter hourly wage rate for Employee1:");
+e2 = window.prompt("Enter Number of Hours Employee2 worked last week:");
+r2 = window.prompt("Enter hourly wage rate for Employee2:");
+e3 = window.prompt("Enter Number of Hours Employee3 worked last week:");
+r3 = window.prompt("Enter hourly wage rate for Employee3:");
+var cal1;
+if(parseInt(e1)>40)
+{
+var extrahours = parseInt(parseInt(e1)-40);
+var extrarate= parseInt(r1) + (parseInt(r1) / 2 );
+cal1= ((40 * parseInt(r1))+ (extrahours * parseInt(extrarate)));
+}
+else
+{
+cal1=parseInt(e1) * parseInt(r1);
+}
+docume…
+[11:54 am, 13/09/2022] Prudhvi: document.writeln( "<h1> Employee3 Gross Wage is: " + cal3+ "</h1>" );
+// -->
+</script>
+</head>
+<body>
+<h1><center>Pay Day</center>
+<hr />
+<p> Click Refresh(F5) or reload to run this script again</p>
+</body>
+</html
