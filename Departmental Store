@@ -1,0 +1,20 @@
+<html>
+<body>
+
+<script>
+var number1 = window.prompt( "Please Enter your account Number", "0" );
+var number2 = window.prompt( "What was your balance at the beginning of the month?", "0" );
+var number3 = window.prompt( "How much did you spend this month?", "0" );
+var number4 = window.prompt( "How much did you spend on payments this month?", "0" );
+var number5 = window.prompt( "What was your approved store credit limit?", "0" );
+
+document.write(" Account Number = "+(number1)+"<br>");
+document.write(" Balance at the beginning of the month = "+(number2)+"<br>");
+document.write(" Total spent by you this month = "+(number3)+"<br>");
+document.write(" Total amount you have paid this month = "+(number4)+"<br>");
+document.write(" Your approved Store credit limit = "+(number5)+"<br>");
+document.write(" Your current balance = "+(number2 + number3 - number4)+"<br>");
+</script>
+
+</body>
+</html>
