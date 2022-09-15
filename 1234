@@ -1,0 +1,35 @@
+<html>
+<head>
+<TITLE>1234</title>
+<script>
+document.writeln("partA:")
+
+document.writeln("numbers on same line:")
+
+var i=1,j;
+while(i<5){
+document.write(i+" ");
+i+=1;
+
+}
+document.write("<br/>");
+
+
+document.write("  partb:");
+document.write("numbers on same line:");
+document.write("1 ");
+document.write("2 ");
+
+document.write("3 ");
+document.write("4 ");
+</script>
+
+
+</head>
+<body>
+
+
+
+
+</body>
+</html>
