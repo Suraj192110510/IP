@@ -1,0 +1,84 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type = ""text/xsl" href = "cookies.xsl"?>
+
+
+<product name="Grandma White's Cookies">
+
+<servingsize>1 package</servingsize>
+
+<calories>
+
+<total><mark>260 Calories</mark></total>
+<fat><mark>100 Calories</mark></fat>
+</calories>
+
+<fat>
+<total><mark>11 grams</mark></total>
+<saturated><mark>2 grams</mark></saturated>
+</fat>
+
+
+<cholesterol><mark>
+5 milligrams</mark></cholesterol>
+<sodium><mark>
+210 milligrams</mark></sodium>
+
+<carbohydrates>
+<total><mark>36 grams</mark></tota`enter code here`l>
+<fiber><mark>2 grams</mark></fiber>
+<sugars><mark>15 grams<mark></sugars>
+</carbohydrates>
+
+
+<protein><mark>5 grams</mark></protein>
+
+</product>
+My xsl markup is as follows. I need to display the information in a table form.I tried outputting the information under and it is not getting displayed. Can you help me figure it out?
+
+<?xml version = "1.0"?>
+
+<xsl:stylesheet version ="1.0"
+  xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
+
+ <xsl:output method = "html" doctype-system = "about:legacy-compat" />
+ <xsl:template match = "/">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+ <meta charset = "utf-8" />
+ <link rel = "stylesheet" type = "text/css" href ="style.css" />
+ <title>Grandma White's cookies</title>
+</head>
+
+<body>
+  <h1>
+
+         Grandma White's cookie nutrition facts </h1>
+<h3>Serving size <xsl:value-of select="servingsize"/></h3>
+
+<table>
+<thead>
+
+    <tr>
+
+        <th>Description></th>
+        <th>Information</th>
+        </tr>
+        </thead>
+        <xsl:for-each select="/calories">
+        <tr>
+            <td>Calories;fats;protein;carbohydrates;sodium;cholesterol;fiber;sugar</td>
+            <td><xsl:for-each select="total"/><br></br>
+            <xsl:for-each select="fat"/></td>
+            </tr>
+
+        </xsl:for-each>
+</table>
+
+
+
+</body>
+</html>
+
+</xsl:template>
+</xsl:stylesheet>
