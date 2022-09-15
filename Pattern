@@ -1,0 +1,16 @@
+<html>
+<head>
+<script src="r1.js "  > 
+document.write("**&nbsp&nbsp&nbsp&nbsp     *   &nbsp&nbsp&nbsp     *   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp*<br>");
+document.write("&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp    *   &nbsp&nbsp  *    &nbsp&nbsp     *   &nbsp&nbsp&nbsp&nbsp&nbsp      *&nbsp&nbsp&nbsp<br>");
+document.write("&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp    * &nbsp&nbsp    *  &nbsp&nbsp      *   &nbsp&nbsp       *&nbsp&nbsp&nbsp&nbsp   *<br>");
+document.write("&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp    * &nbsp&nbsp    *   &nbsp&nbsp    *     &nbsp&nbsp &nbsp&nbsp    *   &nbsp&nbsp &nbsp&nbsp&nbsp  *<br>");
+document.write("&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp    * &nbsp&nbsp   *   &nbsp&nbsp     *    &nbsp&nbsp&nbsp&nbsp&nbsp      * &nbsp&nbsp&nbsp&nbsp&nbsp  *<br>"); 
+document.write("&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp   * &nbsp&nbsp *     &nbsp&nbsp    *  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp         &nbsp&nbsp&nbsp&nbsp<br>");
+document.write("**&nbsp&nbsp&nbsp&nbsp  *          &nbsp&nbsp&nbsp *    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          *");
+</script>
+</head>
+<body>
+<h1>paragraph</h1>
+</body>
+</html>
